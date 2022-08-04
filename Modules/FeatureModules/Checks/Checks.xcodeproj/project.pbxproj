@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF6D688B1FBAF47C23B221F /* CheckList.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43FC08865B821D909B97E109 /* CheckList.strings */; };
+		584B00CDA513A679C797A7DD /* TuistStrings+Checks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899571C50D4CD9AD0A812A77 /* TuistStrings+Checks.swift */; };
+		83A6E950918A128E5D031897 /* TuistBundle+Checks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F951006AB39E270AD4915 /* TuistBundle+Checks.swift */; };
+		BEA0998069E38E6FD38B5685 /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E780750E2E9203EA58089 /* CheckListViewController.swift */; };
+		CD525E8FB4BC4CB04CC9E80D /* CheckListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF5DB126AFDBF676B96DB7 /* CheckListFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F87D1CA5BAB90C08ED6C2A72 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21591E1D92ECF95EAECBEF4E /* Prod-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Prod-Debug.xcconfig"; sourceTree = "<group>"; };
+		43FC08865B821D909B97E109 /* CheckList.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CheckList.strings; sourceTree = "<group>"; };
+		525F951006AB39E270AD4915 /* TuistBundle+Checks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Checks.swift"; sourceTree = "<group>"; };
+		535E6A746AE0B9C98EF2F37C /* Prod-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Prod-Release.xcconfig"; sourceTree = "<group>"; };
+		6AE5F082F09A794A52CD7B3C /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		899571C50D4CD9AD0A812A77 /* TuistStrings+Checks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistStrings+Checks.swift"; sourceTree = "<group>"; };
+		8ABC87268986962DA6458EE0 /* Checks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Checks-Info.plist"; sourceTree = "<group>"; };
+		B8CF5DB126AFDBF676B96DB7 /* CheckListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListFactory.swift; sourceTree = "<group>"; };
+		CE979FD9ABBBD486D94EE9AD /* Dev-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Dev-Debug.xcconfig"; sourceTree = "<group>"; };
+		D12E780750E2E9203EA58089 /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		D57E589BA9324CA87C100D28 /* Dev-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Dev-Release.xcconfig"; sourceTree = "<group>"; };
+		F6AFF446B02B5BCE6C199418 /* Checks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Checks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9E9A909CD6716E14EE541D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0028C946ABB42CF35B965F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00455C030888584E2B63790F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6AFF446B02B5BCE6C199418 /* Checks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5CF8D1395322E3F4645C44 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				EBC424B187248A8A28BFF4CD /* InfoPlists */,
+				B771490F545715D3E7A3654B /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		1C28C942D385372193C6C89E /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				533BA6D0B5E633DDBDDF87BD /* Configurations */,
+				1A5CF8D1395322E3F4645C44 /* Derived */,
+				D7DB3CBA54F25B7B93B6EBE5 /* Sources */,
+				6AE5F082F09A794A52CD7B3C /* Project.swift */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		35FF8B68E4909DE2AAD4F996 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43FC08865B821D909B97E109 /* CheckList.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		533BA6D0B5E633DDBDDF87BD /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CE979FD9ABBBD486D94EE9AD /* Dev-Debug.xcconfig */,
+				D57E589BA9324CA87C100D28 /* Dev-Release.xcconfig */,
+				21591E1D92ECF95EAECBEF4E /* Prod-Debug.xcconfig */,
+				535E6A746AE0B9C98EF2F37C /* Prod-Release.xcconfig */,
+			);
+			name = Configurations;
+			path = ../../../Configurations;
+			sourceTree = "<group>";
+		};
+		6FCC5FCBD6284E5DED3322DF /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+				35FF8B68E4909DE2AAD4F996 /* Resources */,
+				B8CF5DB126AFDBF676B96DB7 /* CheckListFactory.swift */,
+				D12E780750E2E9203EA58089 /* CheckListViewController.swift */,
+			);
+			path = CheckList;
+			sourceTree = "<group>";
+		};
+		88C6E0715309945408E48A0E = {
+			isa = PBXGroup;
+			children = (
+				1C28C942D385372193C6C89E /* Project */,
+				0028C946ABB42CF35B965F43 /* Frameworks */,
+				00455C030888584E2B63790F /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
+		};
+		B771490F545715D3E7A3654B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				525F951006AB39E270AD4915 /* TuistBundle+Checks.swift */,
+				899571C50D4CD9AD0A812A77 /* TuistStrings+Checks.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D7DB3CBA54F25B7B93B6EBE5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6FCC5FCBD6284E5DED3322DF /* CheckList */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EBC424B187248A8A28BFF4CD /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				8ABC87268986962DA6458EE0 /* Checks-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E981D3541CB3A3C5B7A32D82 /* Checks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE3478AE305D8175746BB43 /* Build configuration list for PBXNativeTarget "Checks" */;
+			buildPhases = (
+				55370CC02BB738507CA35EEF /* Sources */,
+				D5880E9016A7919464A8151A /* Resources */,
+				F87D1CA5BAB90C08ED6C2A72 /* Embed Frameworks */,
+				CC9E9A909CD6716E14EE541D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checks;
+			productName = Checks;
+			productReference = F6AFF446B02B5BCE6C199418 /* Checks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E6A22FD08D1EA340E70FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Francium-d";
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 240BE555FB387A3EA11F81F2 /* Build configuration list for PBXProject "Checks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 88C6E0715309945408E48A0E;
+			productRefGroup = 00455C030888584E2B63790F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E981D3541CB3A3C5B7A32D82 /* Checks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5880E9016A7919464A8151A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF6D688B1FBAF47C23B221F /* CheckList.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55370CC02BB738507CA35EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6E950918A128E5D031897 /* TuistBundle+Checks.swift in Sources */,
+				584B00CDA513A679C797A7DD /* TuistStrings+Checks.swift in Sources */,
+				CD525E8FB4BC4CB04CC9E80D /* CheckListFactory.swift in Sources */,
+				BEA0998069E38E6FD38B5685 /* CheckListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		054A35683A5BDD8A057882BF /* Dev-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE979FD9ABBBD486D94EE9AD /* Dev-Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = AUTOMATIC;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = "Dev-Debug";
+		};
+		3AC26A6A26C039C05453592B /* Dev-Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Derived/InfoPlists/Checks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francium-d.swift-opaque-result-type-Checks";
+				PRODUCT_NAME = Checks;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Dev-Debug";
+		};
+		4334DA6C530922AF2D534896 /* Prod-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21591E1D92ECF95EAECBEF4E /* Prod-Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = AUTOMATIC;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod-Debug";
+		};
+		53A0DE0206CDECBC1126F1A2 /* Dev-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Derived/InfoPlists/Checks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francium-d.swift-opaque-result-type-Checks";
+				PRODUCT_NAME = Checks;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Dev-Release";
+		};
+		53D37A0644EAF46057616A74 /* Prod-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535E6A746AE0B9C98EF2F37C /* Prod-Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = AUTOMATIC;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod-Release";
+		};
+		996E6A3DDCF2CCB731B2E174 /* Prod-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Derived/InfoPlists/Checks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francium-d.swift-opaque-result-type-Checks";
+				PRODUCT_NAME = Checks;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Prod-Release";
+		};
+		9DC2353A78C37550775E4386 /* Prod-Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Derived/InfoPlists/Checks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francium-d.swift-opaque-result-type-Checks";
+				PRODUCT_NAME = Checks;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Prod-Debug";
+		};
+		AE4D5A340CEB407394A2BE08 /* Dev-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57E589BA9324CA87C100D28 /* Dev-Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = AUTOMATIC;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = "Dev-Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240BE555FB387A3EA11F81F2 /* Build configuration list for PBXProject "Checks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054A35683A5BDD8A057882BF /* Dev-Debug */,
+				AE4D5A340CEB407394A2BE08 /* Dev-Release */,
+				4334DA6C530922AF2D534896 /* Prod-Debug */,
+				53D37A0644EAF46057616A74 /* Prod-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Dev-Release";
+		};
+		CBE3478AE305D8175746BB43 /* Build configuration list for PBXNativeTarget "Checks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC26A6A26C039C05453592B /* Dev-Debug */,
+				53A0DE0206CDECBC1126F1A2 /* Dev-Release */,
+				9DC2353A78C37550775E4386 /* Prod-Debug */,
+				996E6A3DDCF2CCB731B2E174 /* Prod-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Dev-Release";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E6A22FD08D1EA340E70FB9 /* Project object */;
+}

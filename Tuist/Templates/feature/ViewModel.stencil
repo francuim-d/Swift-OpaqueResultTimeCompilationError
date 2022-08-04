@@ -1,0 +1,24 @@
+//
+// {{ name }}ViewModel.swift
+//
+{% if author %}
+// Created by {{ author }}.
+{% endif %}
+// Copyright © 2022 Spider Group. All rights reserved.
+//
+
+import Foundation
+
+protocol {{ name }}ViewModel: AnyObject {}
+
+final class {{ name }}ViewModelImpl: {{ name }}ViewModel {
+    // MARK: - Private properties
+
+    private let router: {{ name }}Router
+
+    // MARK: - Init
+
+    init(router: {{ name }}Router) {
+        self.router = router
+    }
+}

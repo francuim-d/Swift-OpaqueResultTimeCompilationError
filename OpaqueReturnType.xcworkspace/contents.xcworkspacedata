@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OpaqueReturnType.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Modules"
+      name = "Modules">
+      <Group
+         location = "group:FeatureModules"
+         name = "FeatureModules">
+         <FileRef
+            location = "group:Checks/Checks.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

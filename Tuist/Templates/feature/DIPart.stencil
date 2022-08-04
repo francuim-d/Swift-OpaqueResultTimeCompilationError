@@ -1,0 +1,22 @@
+//
+// {{ name }}DIPart.swift
+//
+{% if author %}
+// Created by {{ author }}.
+{% endif %}
+// Copyright © 2022 Spider Group. All rights reserved.
+//
+
+import DITranquillity
+import UIKit
+
+final class {{ name }}DIPart: DIPart {
+    static func load(container: DIContainer) {
+        container.register({{ name }}ViewModelImpl.init(router:))
+            .as({{ name }}ViewModel.self)
+
+        container.register({{ name }}ViewController.init(viewModel:))
+            .as({{ name }}ViewControllerTag.self)
+            .lifetime(.objectGraph)
+    }
+}
